@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #15151f;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.next_race{
+    display: flex;
+    background-color: #cacad0;
+}
+
+.next_race_title{
+    margin-left: 20px;
+}
+
+.next_race_info{
+    margin: 20px;
+    align-items: center;
+}
+
+.last_race{
+    background-color: #cacad0;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.last_race_info{
+    display: flex;
+    align-items: center;
+}
+
+.last_race_title{
+    margin-left: 20px;
+}
+
+.last_race_name_div{
+    margin: 20px;
+}
+
+.classif_item, .classif_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.classif_item div, .classif_header div {
+    width: 150px;
+    margin: 5px;
+}

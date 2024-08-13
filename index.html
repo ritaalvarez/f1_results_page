@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Current F1 season</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logof1.png" alt="F1 Logo">
+        <h1>Current F1 season</h1>
+    </header>
+    </p>
+    <section class="next_race">
+        <div class="next_race_title">
+            <h2> Next race: </h2>
+        </div>
+        <div class="next_race_info">
+                Round <span id="round"></span> of the <span id="season"></span> season
+            </p>
+                <span id="race_name"></span>
+            </p>
+                <span id="circuit_name"></span>
+            </p>
+                <span id="date"></span> at <span id="time"></span> 
+        </div>
+    </section>
+    <section class="last_race">
+        <div class="last_race_info">
+            <div class="last_race_title">
+                <h2>Last Race Results: </h2>
+            </div>
+            <div class="last_race_name_div">
+                <span id="last_race_name"></span>
+            </div>
+        </div>
+        <ul id="classif_lines">
+            <li class="classif_header">
+                <div>Position</div>
+                <div>Driver's Name</div>
+                <div>Driver's Number</div>
+                <div>Constructor</div>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p>Powered by <a href="http://ergast.com/mrd/">Ergast API</a></p>
+    </footer>
+</body>
+</html>
